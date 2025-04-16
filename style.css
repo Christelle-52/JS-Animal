@@ -1,0 +1,66 @@
+body {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  background: #fef6e4;
+  color: #001858;
+  text-align: center;
+  padding: 2rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #f582ae;
+}
+
+input, button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  margin: 0.5rem;
+}
+
+input {
+  background-color: #ffffff;
+  border: 2px solid #f582ae;
+  color: #001858;
+}
+
+button {
+  background-color: #f582ae;
+  color: white;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+#infos-animal {
+  background-color: #8bd3dd;
+  padding: 1.5rem;
+  border-radius: 15px;
+  width: 80%;
+  max-width: 500px;
+  margin: 2rem auto 0;
+  box-shadow: 5px 5px 0 #f582ae;
+  text-align: left;
+}
+
+#infos-animal h2 {
+  color: #f582ae;
+}
+
+#infos-animal p {
+  font-size: 1.1rem;
+  margin: 0.5rem 0;
+}
+
+.mascotte {
+  margin-top: 2rem;
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
